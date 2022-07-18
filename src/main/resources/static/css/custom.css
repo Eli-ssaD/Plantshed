@@ -1,0 +1,95 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.bg-primary {
+    background-color:  #4dac4d !important;
+}
+
+.card-footer {
+    background: transparent;
+    border-top: 0px;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+.carousel-item {
+    height: 40rem;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.welcome-carousel-image1 {
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel1.jpg');
+
+}
+.welcome-carousel-image2 {
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel2.jpg');
+
+}
+.welcome-carousel-image3 {
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel3.jpg');
+}
+.welcome-carousel-image4 {
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel4.jpg');
+
+
+}
+.shopping-cart-offcanvas {
+    width: 500px;
+}
+
+
+
+.jumbotron-detail-fruit-trees {
+    background: url('../images/peaches.jpg') no-repeat fixed;
+
+}
+.jumbotron-all-plants {
+    background: url('../images/allPlants.jpg') no-repeat fixed;
+
+}
+.jumbotron-detail-sunflowers { 
+    background: url('../images/sunflowerSunset.jpg') no-repeat fixed;
+
+}
+.jumbotron-detail-roses {
+    background: url('../images/pinkRoses.jpg') no-repeat fixed;
+
+}
+.jumbotron-detail-grasses {
+    background: url('../images/grasses2.jpg') no-repeat fixed;
+}
+.jumbotron-detail-plantshedCafe {
+    background: url('../images/plantshedCafe3.jpg') no-repeat fixed;
+
+}
+.jumbotron {
+    box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
+    height: 40vh;
+    background-size: cover;
+}
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
